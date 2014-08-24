@@ -8,7 +8,7 @@ run_analysis <- function() {
     library(reshape2)
     
     # Read in the feature names, subset so we have only the names
-    feat <- read.table("./data/features.txt")
+    feat <- read.table("./UCI HAR Dataset/features.txt")
     feat_labels <- feat[,2]
     
     # Get only the relevant mean() and std() measures
@@ -35,11 +35,11 @@ merge_data <- function(var_names, means_stds) {
     ### Get the 'train' data
     
     # Read in the participant IDs
-    train_ids <- read.table("./data/train/subject_train.txt")
+    train_ids <- read.table("./UCI HAR Dataset/train/subject_train.txt")
     
     # Get the activity numbers and labels
-    train_activity_nums <- read.table("./data/train/y_train.txt")
-    activity_labels <- read.table("./data/activity_labels.txt")
+    train_activity_nums <- read.table("./UCI HAR Dataset/train/y_train.txt")
+    activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
     
     # Convert the long list of activity numbers into a list of labels
     # (so that we can read it in english)
@@ -52,7 +52,7 @@ merge_data <- function(var_names, means_stds) {
     names(train_df) <- c("id","activity")
     
     # Get the 'train' results data
-    train_data <- read.table("./data/train/x_train.txt")
+    train_data <- read.table("./UCI HAR Dataset/train/x_train.txt")
     
     # Subset only the relevant variables and name them
     train_data <- subset(train_data, select=means_stds)
@@ -65,8 +65,8 @@ merge_data <- function(var_names, means_stds) {
     ### Get the 'test' data
     
     # Read in the participant IDs and activity numbers
-    test_ids <- read.table("./data/test/subject_test.txt")
-    test_activity_nums <- read.table("./data/test/y_test.txt")
+    test_ids <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+    test_activity_nums <- read.table("./UCI HAR Dataset/test/y_test.txt")
     
     # Convert the long list of activity numbers into a list of labels
     # (so that we can read it in english)
@@ -79,7 +79,7 @@ merge_data <- function(var_names, means_stds) {
     
     # Read the 'test' results data, subset the columns we want, 
     # name it, and add to our existing test_df
-    test_data <- read.table("./data/test/x_test.txt")
+    test_data <- read.table("./UCI HAR Dataset/test/x_test.txt")
     test_data <- subset(test_data, select=means_stds)
     names(test_data) <- var_names
     test_df <- cbind(test_df, test_data)

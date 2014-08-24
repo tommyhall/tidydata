@@ -226,3 +226,5 @@ The mean standard deviation of the magnitude of body acceleration, obtained from
 
 **fbodybodygyrojerkmagstd**  
 The mean standard deviation of the magnitude of body jerk acceleration, obtained from the gyro
+
+Note: All variables except for **id** and **activity** are bounded within [-1,1]
