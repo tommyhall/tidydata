@@ -5,10 +5,10 @@ All variable names in this dataset appear in lower case, without any periods, sp
 
 ##Measures
 
-**id**
+**id**  
 A unique identifying number for each participant
 
-**activity**
+**activity**  
 The activity that the participant was performing
 
 
@@ -16,64 +16,64 @@ The activity that the participant was performing
 
 ###Means
 
-**tbodyaccmeanx**
+**tbodyaccmeanx**  
 The mean body acceleration on the X-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccmeany**
+**tbodyaccmeany**  
 The mean body acceleration on the Y-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccmeanz**
+**tbodyaccmeanz**  
 The mean body acceleration on the Y-axis, obtained from the accelerometer, measured in time (s)
 
-**tgravityaccmeanx**
+**tgravityaccmeanx**  
 The mean gravity acceleration on the X-axis, obtained from the accelerometer, measured in time (s)
 
-**tgravityaccmeany**
+**tgravityaccmeany**  
 The mean gravity acceleration on the Y-axis, obtained from the accelerometer, measured in time (s)
 
-**tgravityaccmeanz**
+**tgravityaccmeanz**  
 The mean gravity acceleration on the Z-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccjerkmeanx**
+**tbodyaccjerkmeanx**  
 The mean body jerk acceleration on the X-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccjerkmeany**
+**tbodyaccjerkmeany**  
 The mean body jerk acceleration on the Y-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccjerkmeanz**
+**tbodyaccjerkmeanz**  
 The mean body jerk acceleration on the Z-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodygyromeanx**
+**tbodygyromeanx**  
 The mean body acceleration on the X-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyromeany**
+**tbodygyromeany**  
 The mean body acceleration on the Y-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyromeanz**
+**tbodygyromeanz**  
 The mean body acceleration on the Z-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyrojerkmeanx**
+**tbodygyrojerkmeanx**  
 The mean body jerk acceleration on the X-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyrojerkmeany**
+**tbodygyrojerkmeany**  
 The mean body jerk acceleration on the Y-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyrojerkmeanz**
+**tbodygyrojerkmeanz**  
 The mean body jerk acceleration on the Z-axis, obtained from the gyro, measured in time (s)
 
-**tbodyaccmagmean** 
+**tbodyaccmagmean**  
 The mean magnitude of the body acceleration, obtained from the accelerometer, measured in time (s)
 
-**tgravityaccmagmean**
+**tgravityaccmagmean**  
 The mean magnitude of the gravity acceleration, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccjerkmagmean**
+**tbodyaccjerkmagmean**  
 The mean magnitude of the body jerk acceleration, obtained from the accelerometer, measured in time (s)
 
-**tbodygyromagmean**
+**tbodygyromagmean**  
 The mean magnitude of the body acceleration, obtained from the gyro, measured in time (s)
 
-**tbodygyrojerkmagmean**
+**tbodygyrojerkmagmean**  
 The mean magnitude of the body jerk acceleration, obtained from the gyro, measured in time (s)
 
 
@@ -85,58 +85,58 @@ The mean standard deviation of body acceleration on the X-axis, obtained from th
 **tbodyaccstdy**    
 The mean standard deviation of body acceleration on the Y-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccstdz** 
+**tbodyaccstdz**  
 The mean standard deviation of body acceleration on the Z-axis, obtained from the accelerometer, measured in time (s)
 
-**tgravityaccstdx**
+**tgravityaccstdx**  
 The mean standard deviation of gravity acceleration on the X-axis, obtained from the accelerometer, measured in time (s)
 
-**tgravityaccstdy**
+**tgravityaccstdy**  
 The mean standard deviation of body acceleration on the Y-axis, obtained from the accelerometer, measured in time (s)
 
-**tgravityaccstdz**
+**tgravityaccstdz**  
 The mean standard deviation of body acceleration on the Z-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccjerkstdx**
+**tbodyaccjerkstdx**  
 The mean standard deviation of body jerk acceleration on the X-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccjerkstdy**
+**tbodyaccjerkstdy**  
 The mean standard deviation of body jerk acceleration on the Y-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccjerkstdz**
+**tbodyaccjerkstdz**  
 The mean standard deviation of body jerk acceleration on the Z-axis, obtained from the accelerometer, measured in time (s)
 
-**tbodygyrostdx**
+**tbodygyrostdx**  
 The mean standard deviation of body acceleration on the X-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyrostdy**
+**tbodygyrostdy**  
 The mean standard deviation of body acceleration on the Y-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyrostdz**
+**tbodygyrostdz**  
 The mean standard deviation of body acceleration on the Z-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyrojerkstdx**
+**tbodygyrojerkstdx**  
 The mean standard deviation of body jerk acceleration on the X-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyrojerkstdy**
+**tbodygyrojerkstdy**  
 The mean standard deviation of body jerk acceleration on the Y-axis, obtained from the gyro, measured in time (s)
 
-**tbodygyrojerkstdz**
+**tbodygyrojerkstdz**  
 The mean standard deviation of body jerk acceleration on the Z-axis, obtained from the gyro, measured in time (s)
 
-**tbodyaccmagstd**
+**tbodyaccmagstd**  
 The mean standard deviation of the magnitude of the body acceleration, obtained from the accelerometer, measured in time (s)
 
-**tgravityaccmagstd**     
+**tgravityaccmagstd**  
 The mean standard deviation of the magnitude of the gravity acceleration, obtained from the accelerometer, measured in time (s)
 
-**tbodyaccjerkmagstd**      
+**tbodyaccjerkmagstd**  
 The mean standard deviation of the magnitude of the body jerk acceleration, obtained from the accelerometer, measured in time (s)
 
-**tbodygyromagstd**    
+**tbodygyromagstd**  
 The mean standard deviation of the magnitude of the body acceleration, obtained from the gyro, measured in time (s)
 
-**tbodygyrojerkmagstd**
+**tbodygyrojerkmagstd**  
 The mean standard deviation of the magnitude of the body jerk acceleration, obtained from the gyro, measured in time (s)
 
 
@@ -146,49 +146,49 @@ The mean standard deviation of the magnitude of the body jerk acceleration, obta
 
 ###Means
 
-**fbodyaccmeanx** 
+**fbodyaccmeanx**  
 The mean body acceleration on the X-axis, obtained from the accelerometer
 
-**fbodyaccmeany** 
+**fbodyaccmeany**  
 The mean body acceleration on the Y-axis, obtained from the accelerometer
 
 **fbodyaccmeanz**   
 The mean body acceleration on the Z-axis, obtained from the accelerometer
 
-**fbodyaccjerkmeanx**
+**fbodyaccjerkmeanx**  
 The mean body jerk acceleration on the X-axis, obtained from the accelerometer
 
-**fbodyaccjerkmeany**
+**fbodyaccjerkmeany**  
 The mean body jerk acceleration on the Y-axis, obtained from the accelerometer
 
-**fbodyaccjerkmeanz**
+**fbodyaccjerkmeanz**  
 The mean body jerk acceleration on the Z-axis, obtained from the accelerometer
 
-**fbodygyromeanx**
+**fbodygyromeanx**  
 The mean body acceleration on the X-axis, obtained from the gyro
 
-**fbodygyromeany**
+**fbodygyromeany**  
 The mean body acceleration on the Y-axis, obtained from the gyro
 
-**fbodygyromeanz**
+**fbodygyromeanz**  
 The mean body acceleration on the Z-axis, obtained from the gyro
 
-**fbodyaccmagmean**  
+**fbodyaccmagmean**    
 The mean magnitude of the body acceleration, obtained from the accelerometer
 
-**fbodybodyaccjerkmagmean**
+**fbodybodyaccjerkmagmean**  
 The mean magnitude of the body jerk acceleration, obtained from the accelerometer
 
-**fbodybodygyromagmean**
+**fbodybodygyromagmean**  
 The mean magnitude of the body acceleration, obtained from the accelerometer
 
-**fbodybodygyrojerkmagmean**
+**fbodybodygyrojerkmagmean**  
 The mean magnitude of the body jerk acceleration, obtained from the gyro
 
 
 ###Standard Deviations
 
-**fbodyaccstdx**            
+**fbodyaccstdx**  
 The mean standard deviation of the body acceleration on the X-axis, obtained from the accelerometer
 
 **fbodyaccstdy**             
@@ -197,7 +197,7 @@ The mean standard deviation of the body acceleration on the Y-axis, obtained fro
 **fbodyaccstdz**       
 The mean standard deviation of the body acceleration on the Z-axis, obtained from the accelerometer
 
-**fbodyaccjerkstdx**
+**fbodyaccjerkstdx**  
 The mean standard deviation of the body jerk acceleration on the X-axis, obtained from the accelerometer
 
 **fbodyaccjerkstdy**      
@@ -206,7 +206,7 @@ The mean standard deviation of the body jerk acceleration on the Y-axis, obtaine
 **fbodyaccjerkstdz**        
 The mean standard deviation of the body jerk acceleration on the Z-axis, obtained from the accelerometer
 
-**fbodygyrostdx**           
+**fbodygyrostdx**       
 The mean standard deviation of the magnitude of body acceleration on the X-axis, obtained from the gyro
 
 **fbodygyrostdy**            
@@ -215,14 +215,14 @@ The mean standard deviation of the magnitude of body acceleration on the Y-axis,
 **fbodygyrostdz**  
 The mean standard deviation of the magnitude of body acceleration on the Z-axis, obtained from the gyro
 
-**fbodyaccmagstd**
+**fbodyaccmagstd**  
 The mean standard deviation of the magnitude of body acceleration, obtained from the accelerometer
 
-**fbodybodyaccjerkmagstd**
+**fbodybodyaccjerkmagstd**  
 The mean standard deviation of the magnitude of body jerk acceleration, obtained from the accelerometer
 
-**fbodybodygyromagstd**
+**fbodybodygyromagstd**  
 The mean standard deviation of the magnitude of body acceleration, obtained from the gyro
 
-**fbodybodygyrojerkmagstd**
+**fbodybodygyrojerkmagstd**  
 The mean standard deviation of the magnitude of body jerk acceleration, obtained from the gyro
