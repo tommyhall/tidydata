@@ -6,10 +6,10 @@ This script loads accelerometer data from a Samsung Galaxy S smartphone and crea
 ###Running the code
 
 To generate the tidy data set, you first need to load the script using the command:
-```source("run_analysis.R")```
+    source("run_analysis.R")
 
 You can then call the **run_analysis()** function like so:
-```tidy_data <- run_analysis()```
+    tidy_data <- run_analysis()
 
 
 ###Additional functions
